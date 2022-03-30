@@ -1,0 +1,39 @@
+.code {
+    background-color: white;
+    display: flex;
+}
+.code .left {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.code .left img {
+    height: 100%;
+}
+.code .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.code .right h2 {
+    font-size: 30px;
+}
+.code .right form {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.code .right form textarea {
+    width: 300px;
+    height: 200px;
+    font-size: 14px;
+}
+

@@ -1,0 +1,76 @@
+.download {
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.download h1 {
+    font-size: 50px;
+    color: white;
+}
+.download .container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.download .container .card {
+    width: 300px;
+    height: 25%;
+    margin: 0 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px -8px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    transition: all 1s ease;
+    background-color: white;
+}
+
+.download .container .card:hover {
+    transform: scale(1.1);
+}
+
+.download .container .card .center {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10px;
+  
+}
+
+.download .container .card .center  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    
+
+}
+.download .container .card .center  a:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: crimson;
+    
+
+}
+.card .center p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+ 
+}
+
+
+
+

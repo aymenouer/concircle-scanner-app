@@ -1,0 +1,74 @@
+.intro {
+	 background-color: white;
+	 display: flex;
+}
+ .left {
+	 flex: 0.5;
+	 overflow: hidden;
+}
+ .imgContainer {
+	 width: 600px;
+	 height: 600px;
+	 background-color: crimson;
+	 border-radius: 50%;
+	 display: flex;
+	 align-items: flex-end;
+	 justify-content: center;
+	 float: right;
+}
+ img {
+	 height: 90%;
+}
+ .intro .right {
+	 flex: 0.7;
+	 position: relative;
+     overflow: hidden;
+}
+ .intro .right .wrapper {
+	 width: 100%;
+	 height: 100%;
+	 padding-left: 50px;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+}
+ .intro .right .wrapper h1 {
+	 font-size: 60px;
+	 margin: 10px 0;
+}
+ .intro .right .wrapper h2 {
+	 font-size: 35px;
+}
+ .intro .right .wrapper h3 {
+	 font-size: 30px;
+}
+ .intro .right .wrapper h3 span {
+	 font-size: inherit;
+	 color: crimson;
+}
+ .intro .right .wrapper h3 .ityped-cursor {
+	 animation: blink 1s infinite;
+}
+ @keyframes blink {
+	 50% {
+		 opacity: 1;
+	}
+	 100% {
+		 opacity: 0;
+	}
+}
+ .intro .right a {
+	 position: absolute;
+	 bottom: 10px;
+	 left: 40%;
+}
+ .intro .right a img {
+	 width: 30px;
+	 animation: arrowBlink 2s infinite;
+}
+ @keyframes arrowBlink {
+	 100% {
+		 opacity: 0;
+	}
+}
+ 
