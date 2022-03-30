@@ -16,9 +16,7 @@
 	 justify-content: center;
 	 float: right;
 }
- img {
-	 height: 90%;
-}
+
  .intro .right {
 	 flex: 0.7;
 	 position: relative;
