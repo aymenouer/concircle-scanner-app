@@ -26,7 +26,6 @@
 - All details about the Concircle scanner mobile app.🌟
 - Generate **Bar Code** to test the mobile app.
 
-
 ## Development
 
 _Easily set up a local development environment!_
@@ -53,8 +52,5 @@ You are welcome to discuss it on:
 
 <br/>
 <br/>
-
-
-
 
 
