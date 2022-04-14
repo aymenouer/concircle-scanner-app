@@ -5,7 +5,7 @@
 [![Stars](https://img.shields.io/github/stars/aymenouer/concircle-scanner-app?style=social)](https://img.shields.io/github/stars/aymenouer/concircle-scanner-app?style=social)
 
 
-:star: Star on GitHub — it motivates Me a lot!!
+:star: Star on GitHub — it motivates Me a lot!
 
 [Concircle Scanner App](https://harmonious-gecko-96159e.netlify.app/) is application That describe Concircle Scanner Mobile app features and functionality and to generate a bar code to test the app.
 
